@@ -77,4 +77,3 @@ light:
     cs_pin: PA17
     power_supply: ring_power
     gamma_correct: 1.8
-    
