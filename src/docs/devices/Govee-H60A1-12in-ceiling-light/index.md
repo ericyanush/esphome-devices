@@ -10,8 +10,8 @@ difficulty: 3
 Uses a custom module. CPU is RTL8720CM.
 ![alt text](module.jpeg "PCB")
 
-Opening the light is straighforward; simply remove the 12 phillips head screws around the perimeter of the light,
-and carefully flip the top half the light over. Note, the wires runing between the PCB and the main light will
+Opening the light is straightforward; simply remove the 12 Phillips head screws around the perimeter of the light,
+and carefully flip the top half of the light over. Note: the wires running between the PCB and the main light will
 prevent you from removing the back completely.
 
 ![alt text](full_pcb.jpeg "Full PCB")
@@ -22,8 +22,8 @@ a baud rate other than 115200. I also found making a flash backup took ~30 minut
 Govee was kind, and exposed all the connections you need to flash the module in a single header (JP):
 ![alt text](rear_pcb.jpeg "PCB Rear")
 
-In addition, you will need to pull PA00 and PA13 to 3.3V to put the MCU in download mode; the full
-pinout of the module is as follows:
+In addition, you will need to pull PA0 and PA13 to 3.3V to put the MCU in download mode; the full
+ pinout of the module is as follows:
 
 ## Module Pinout
 
